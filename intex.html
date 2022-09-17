@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drishya</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+    <style>
+        table{
+        width: 100%;
+        margin: 20px 0;
+        border-collapse: collapse;
+    }
+    table, th, td{
+        border: 1px solid #cdcdcd;
+    }
+    table th, table td{
+        padding: 5px;
+        text-align: left;
+    }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="number" id="a" value="" >
+        <input type="number" id="b" >
+        <input type="number" id="c">
+        <input type="button" class="add-row" value="Add Row">
+    </form>
+    <table align="center">
+        <tbody>
+        <tr>
+            <td><input type="checkbox" name="record"></td>
+<td>
+            <input value="1" />
+          </td>
+          <td>
+            <input value="2" />
+          </td>
+          <td>
+            <input value="3" />
+          </td>
+          <td class="rowsum">-</td>
+          
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="record"></td>
+
+          <td>
+
+            <input type="number" value="4" />
+          </td>
+          <td>
+            <input type="number" value="5" />
+          </td>
+          <td>
+            <input type="number" value="6" />
+          </td>
+          <td class="rowsum">-</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="record"></td>
+
+          <td>
+            <input type="number" value="7" />
+          </td>
+          <td>
+            <input  type="number" value="8" />
+          </td>
+          <td>
+            <input type="number" value="9" />
+          </td>
+          <td class="rowsum">-</td>
+        </tr>
+        
+        <tr>
+            <td></td>
+          <td class="colsum">-</td>
+          <td class="colsum">-</td>
+          <td class="colsum">-</td>
+        </tr>
+        </tbody>
+      </table>
+      <button type="button" class="delete-row">Delete Row</button>
+
+</body>
+</html>
